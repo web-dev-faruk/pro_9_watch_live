@@ -1,0 +1,189 @@
+body{height: 100vh;
+    background-image: radial-gradient(rgb(231, 144, 144), #9059e9);
+}
+#watchcon{
+    position: relative;
+    /* background-color: rgba(255, 255, 255, 0.253); */
+    height: 360px;
+}
+
+/* seconds stick */
+
+#secstick{z-index: 7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    transform: rotate(0deg);
+    border-radius: 100%;
+    background-color: rgb(151, 151, 151);
+    /* animation: secstick 60s infinite;
+    animation-timing-function: linear; */
+}
+
+#secstick::before{
+    position: absolute;
+    bottom: 0;
+    margin-left: 20%;
+    content: "";
+    width: 5px;
+    height: 110px;
+    border-radius: 25px;
+    background-color: rgb(151, 151, 151);
+    box-shadow: 3px 3px 1px rgb(151, 151, 151);
+
+}
+
+/* seconds stick end*/
+
+/* minutes stick */
+#minstick{z-index: 6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    transform: rotate(0deg);
+    border-radius: 100%;
+    background-color: green;
+}
+
+#minstick::before{
+    position: absolute;
+    bottom: 0;
+    margin-left: 10%;
+    content: "";
+    width: 7px;
+    height: 90px;
+    border-radius: 25px;
+    background-color: greenyellow;
+    box-shadow: 2px 2px 1px rgb(117, 117, 117);
+
+}
+/* minutes stick end*/
+/* hours stick */
+#hrstick{z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    transform: rotate(0deg);
+    border-radius: 100%;
+    background-color: green;
+}
+
+#hrstick::before{
+    position: absolute;
+    bottom: 0;
+    margin-left: -5%;
+    content: "";
+    width: 10px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: rgb(255, 153, 19);
+    box-shadow: 1px 1px 1px rgb(117, 117, 117);
+
+}
+/* hours stick end*/
+
+#watchnumber{z-index: 4;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    height: 340px;
+    
+    
+}
+#watch{z-index: 3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 360px;
+    height: 360px;
+    border-radius: 100%;
+    background-image: radial-gradient(#d8cfcf, #a3a3a3);
+    box-shadow: 10px -20px 10px #292929,
+                inset 1px 1px 10px #4e4e4e;
+
+    
+}
+#watchbellcon{z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 150px;
+    height: 360px;
+    border-radius: 25px;
+    background-color: #7c4e9ece;
+    box-shadow: 10px -20px 10px #292929,
+                inset -5px 1px 10px #39293b;
+}
+#bellcon{
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 290px;
+    transform: translateX(-50%);
+    width: 200px;
+    animation: bellmove1 2s infinite;
+    animation-timing-function: linear;
+}
+@keyframes bellmove1{
+    0% {
+        transform: translateX(-45%);
+    }
+    50% {
+        transform: translateX(-55%);
+    }
+    100% {
+        transform: translateX(-45%);
+    }
+}
+#svgbellcon{
+    transform: rotate(15deg);
+    animation: bellmove2 2s infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes bellmove2{
+    0% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+
+/* digital watch */
+/* #dwatcon{
+    position: relative;
+    margin-top: 250px;
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: green;
+}
+#dwatsec{
+    position: absolute;
+    
+}
+#dwatmin{
+    position: absolute;
+    
+}
+#dwathr{
+    position: absolute;
+    
+} */
+/* digital watch end */

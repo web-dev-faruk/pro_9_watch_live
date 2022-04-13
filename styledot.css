@@ -1,0 +1,302 @@
+
+
+#dot1{z-index: 12;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    background-color: black;
+}
+
+#dot1::after{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 8px;
+    height:8px;
+    transform:translateY( -1500%);
+    background-color: antiquewhite;
+    border-radius: 100%;
+}
+
+#dots{z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
+#dots::after{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 8px;
+    height:8px;
+    transform:translateY( -1500%);
+    background-color: rgb(97, 97, 97);
+    border-radius: 100%;
+}
+
+.dotsc{z-index: 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
+.dotsc::after{
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 8px;
+    height:8px;
+    transform:translateY( -1500%);
+    background-color: rgb(190, 93, 186);
+    border-radius: 100%;
+}
+#dots1{
+    transform: translate(-50%, -50%) 
+    rotate(6deg);
+}
+#dots2{
+    transform: translate(-50%, -50%) 
+    rotate(12deg);
+}
+#dots3{
+    transform: translate(-50%, -50%) 
+    rotate(18deg);
+}
+#dots4{
+    transform: translate(-50%, -50%) 
+    rotate(24deg);
+}
+#dots5{
+    transform: translate(-50%, -50%) 
+    rotate(30deg);
+}
+#dots6{
+    transform: translate(-50%, -50%) 
+    rotate(36deg);
+}
+#dots7{
+    transform: translate(-50%, -50%) 
+    rotate(42deg);
+}
+#dots8{
+    transform: translate(-50%, -50%) 
+    rotate(48deg);
+}
+#dots9{
+    transform: translate(-50%, -50%) 
+    rotate(54deg);
+}
+#dots10{
+    transform: translate(-50%, -50%) 
+    rotate(60deg);
+}
+#dots11{
+    transform: translate(-50%, -50%) 
+    rotate(66deg);
+}
+#dots12{
+    transform: translate(-50%, -50%) 
+    rotate(72deg);
+}
+#dots13{
+    transform: translate(-50%, -50%) 
+    rotate(78deg);
+}
+#dots14{
+    transform: translate(-50%, -50%) 
+    rotate(84deg);
+}
+#dots15{
+    transform: translate(-50%, -50%) 
+    rotate(90deg);
+}
+#dots16{
+    transform: translate(-50%, -50%) 
+    rotate(96deg);
+}
+#dots17{
+    transform: translate(-50%, -50%) 
+    rotate(102deg);
+}
+#dots18{
+    transform: translate(-50%, -50%) 
+    rotate(108deg);
+}
+#dots19{
+    transform: translate(-50%, -50%) 
+    rotate(114deg);
+}
+#dots20{
+    transform: translate(-50%, -50%) 
+    rotate(120deg);
+}
+#dots21{
+    transform: translate(-50%, -50%) 
+    rotate(126deg);
+}
+#dots22{
+    transform: translate(-50%, -50%) 
+    rotate(132deg);
+}
+#dots23{
+    transform: translate(-50%, -50%) 
+    rotate(138deg);
+}
+#dots24{
+    transform: translate(-50%, -50%) 
+    rotate(144deg);
+}
+#dots25{
+    transform: translate(-50%, -50%) 
+    rotate(150deg);
+}
+#dots26{
+    transform: translate(-50%, -50%) 
+    rotate(156deg);
+}
+#dots27{
+    transform: translate(-50%, -50%) 
+    rotate(162deg);
+}
+#dots28{
+    transform: translate(-50%, -50%) 
+    rotate(168deg);
+}
+#dots29{
+    transform: translate(-50%, -50%) 
+    rotate(174deg);
+}
+#dots30{
+    transform: translate(-50%, -50%) 
+    rotate(180deg);
+}
+#dots31{
+    transform: translate(-50%, -50%) 
+    rotate(186deg);
+}
+#dots32{
+    transform: translate(-50%, -50%) 
+    rotate(192deg);
+}
+#dots33{
+    transform: translate(-50%, -50%) 
+    rotate(198deg);
+}
+#dots34{
+    transform: translate(-50%, -50%) 
+    rotate(204deg);
+}
+#dots35{
+    transform: translate(-50%, -50%) 
+    rotate(210deg);
+}
+#dots36{
+    transform: translate(-50%, -50%) 
+    rotate(216deg);
+}
+#dots37{
+    transform: translate(-50%, -50%) 
+    rotate(222deg);
+}
+#dots38{
+    transform: translate(-50%, -50%) 
+    rotate(228deg);
+}
+#dots39{
+    transform: translate(-50%, -50%) 
+    rotate(234deg);
+}
+#dots40{
+    transform: translate(-50%, -50%) 
+    rotate(240deg);
+}
+#dots41{
+    transform: translate(-50%, -50%) 
+    rotate(246deg);
+}
+#dots42{
+    transform: translate(-50%, -50%) 
+    rotate(252deg);
+}
+#dots43{
+    transform: translate(-50%, -50%) 
+    rotate(258deg);
+}
+#dots44{
+    transform: translate(-50%, -50%) 
+    rotate(264deg);
+}
+#dots45{
+    transform: translate(-50%, -50%) 
+    rotate(270deg);
+}
+#dots46{
+    transform: translate(-50%, -50%) 
+    rotate(276deg);
+}
+#dots47{
+    transform: translate(-50%, -50%) 
+    rotate(282deg);
+}
+#dots48{
+    transform: translate(-50%, -50%) 
+    rotate(288deg);
+}
+#dots49{
+    transform: translate(-50%, -50%) 
+    rotate(294deg);
+}
+#dots50{
+    transform: translate(-50%, -50%) 
+    rotate(300deg);
+}
+#dots51{
+    transform: translate(-50%, -50%) 
+    rotate(306deg);
+}
+#dots52{
+    transform: translate(-50%, -50%) 
+    rotate(312deg);
+}
+#dots53{
+    transform: translate(-50%, -50%) 
+    rotate(318deg);
+}
+#dots54{
+    transform: translate(-50%, -50%) 
+    rotate(324deg);
+}
+#dots55{
+    transform: translate(-50%, -50%) 
+    rotate(330deg);
+}
+#dots56{
+    transform: translate(-50%, -50%) 
+    rotate(336deg);
+}
+#dots57{
+    transform: translate(-50%, -50%) 
+    rotate(342deg);
+}
+#dots58{
+    transform: translate(-50%, -50%) 
+    rotate(348deg);
+}
+#dots59{
+    transform: translate(-50%, -50%) 
+    rotate(354deg);
+}
+#dots60{
+    transform: translate(-50%, -50%) 
+    rotate(360deg);
+}
